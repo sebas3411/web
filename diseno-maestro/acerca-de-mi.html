@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acerca de Mí | Sebas - Creador de Diseño Maestro</title>
+  <meta name="description" content="Conoce la historia detrás de Sebas y la marca Diseño Maestro. Ilustrador y concept artist dedicado al diseño de personajes y escenarios para mentes hiperactivas.">
+  
+  <!-- Estilos del Sistema -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header-footer.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/pages.css">
+
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER GLOBAL: 2 BLOQUES (NAVEGACIÓN + BANNER DE MARCA Y CREADOR)
+       ====================================================================== -->
+  <header class="site-header">
+    
+    <!-- BLOQUE 1: Navegación Principal (<nav>) -->
+    <div class="header-nav-block">
+      <div class="nav-container">
+        <!-- Logotipo Interactivo (Redirige a Inicio) -->
+        <a href="index.html" class="brand-logo" title="Ir a Inicio - Diseño Maestro">
+          <div class="brand-icon-wrapper">
+            <img src="assets/images/logo.png" class="brand-icon-img" alt="Logo Diseño Maestro" />
+          </div>
+          <div class="brand-text-group">
+            <span class="brand-title">DISEÑO <span>MAESTRO</span></span>
+            <span class="brand-subtitle">By Sebas • Concept Art</span>
+          </div>
+        </a>
+
+        <!-- Menú de Enlaces de Escritorio -->
+        <nav aria-label="Navegación Principal">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="trabajos.html" class="nav-link">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a href="acerca-de-mi.html" class="nav-link active">Acerca de mí</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Botón Hamburguesa para Móvil -->
+        <button class="mobile-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <!-- Menú Cajón para Móvil -->
+      <div class="mobile-nav-drawer" aria-label="Menú móvil">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="trabajos.html" class="nav-link">Trabajos</a>
+        <a href="acerca-de-mi.html" class="nav-link active">Acerca de mí</a>
+        <div style="margin-top: auto; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle);">
+          <a href="https://wa.me/573001234567?text=Hola%20Sebas,%20estoy%20en%20tu%20perfil%20de%20Acerca%20de%20mí" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+            Escribir por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOQUE 2: Banner de Marca y Creador (Sebas + Logotipo Diseño Maestro) -->
+    <div class="header-banner-block">
+      <div class="hero-creator-banner">
+        <div class="hero-creator-container">
+          
+          <div class="creator-banner-left fade-up">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+              <span class="badge-tag">El Creador del Trazo</span>
+              <span class="badge-tag secondary">Fundador & Concept Artist</span>
+            </div>
+            <h1 style="font-size: clamp(2.4rem, 4.5vw, 3.6rem); margin-bottom: 0.8rem; line-height: 1.15;">
+              Sebas & <span style="color: var(--accent-green-bright);">Diseño Maestro</span>
+            </h1>
+            <p style="font-size: 1.15rem; color: #D1D5DB; line-height: 1.7; max-width: 580px;">
+              Soy Sebastian Gil V. Ilustrador de Diseño de  persojes y compositor de escenarios, con una gran imaginacion para crear diferentes tipos de escenarios y personajes, en diferentes o en una misma composicion, espero que te gusten mis diseños para que tu tambien puedas crear tus propias ideas. 
+            </p>
+          </div>
+
+          <div class="creator-banner-right fade-up">
+            <div class="creator-avatar-frame">
+              <img 
+                class="creator-avatar-img" 
+                src="assets/images/yosebas.jpeg"
+                alt="Sebas - Creador de Diseño Maestro" 
+              />
+              <div class="creator-verified-badge">
+                <svg class="icon" style="width: 14px; height: 14px;" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                </svg>
+                Sebas • DM Studio
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- ======================================================================
+       BODY: HISTORIA DEL CREADOR Y LA MARCA (DISEÑO EDITORIAL LIMPIO)
+       ====================================================================== -->
+  <main>
+    <section class="about-section">
+      <div class="container">
+        
+        <div class="about-editorial-grid">
+          
+          <!-- Columna Lateral Izquierda (Ficha del Creador) -->
+          <aside class="about-creator-sidebar">
+            <div class="about-creator-card fade-up">
+              <div class="about-photo-wrapper">
+                <img 
+                  class="about-photo-img" 
+                  src="assets/images/yobarca(1).jpeg" 
+                  alt="Sebas en su mesa de trabajo digital" 
+                />
+              </div>
+              <h3 class="about-creator-name">Sebas</h3>
+              <p class="about-creator-role">Ilustrador</p>
+              
+              <div class="about-quick-stats">
+                <div class="stat-cell">
+                  <span class="stat-num">+4</span>
+                  <span class="stat-label">Años Creando</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-num">100%</span>
+                  <span class="stat-label">imaginacion</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-num">+2</span>
+                  <span class="stat-label">Personajes</span>
+                </div>
+                <div class="stat-cell">
+                  <span class="stat-num">%80</span>
+                  <span class="stat-label">Dedicación</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Caja de Software & Arsenal -->
+            <div class="arsenal-box fade-up">
+              <h4>Herramientas & Pipeline</h4>
+              <div class="tools-tag-cloud">
+                </span>
+                <span class="tool-chip">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                  Adobe Photoshop
+                </span>
+                <span class="tool-chip">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+                  Blender 3D
+                </span>
+                <span class="tool-chip">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z"/></svg>
+                  PureRef
+                </span>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Columna Principal Derecha (Texto Narrativo Editorial) -->
+          <article class="about-story-col">
+            
+            <header class="about-story-header fade-up">
+              <span class="badge-tag">Biografía & Trayectoria</span>
+              <h2>Del Boceto a la Huella Creativa</h2>
+              <div class="accent-line"></div>
+            </header>
+
+            <!-- Párrafo 1 (Texto Base de Especificación) -->
+            <div class="story-lead-paragraph fade-up">
+              "Mi nombre es <strong>Sebas</strong> y me apasiona diseñar escenarios y personajes desde los 10 años, época en la que empecé a imaginar y construir diferentes mundos con sus propios habitantes."
+            </div>
+
+            <!-- Párrafo 2 (Texto Base de Especificación) -->
+            <p class="story-body-paragraph fade-up">
+              Al principio, lo único que frenaba mis ideas era la falta de técnica y experiencia en el diseño, lo que me impulsó a ingresar a la universidad —donde continúo formándome y perfeccionando mi arte día a día—. Cada clase de anatomía, perspectiva, teoría del color y narrativa visual se convirtió en combustible para desbloquear la visión que tenía en mi cabeza desde niño.
+            </p>
+
+            <!-- Párrafo 3 (Texto Base de Especificación) -->
+            <p class="story-body-paragraph fade-up">
+              La marca <strong>Diseño Maestro</strong> nació durante mis primeros semestres. Tras iterar y transformar el logotipo innumerables veces, decidí convertirlo en mi sello personal. Con el tiempo, este proyecto evolucionó hacia la creación de diversas ilustraciones y composiciones con un objetivo claro: <strong>contar historias visuales y dejar una huella en la industria</strong>.
+            </p>
+
+            <div class="accent-line" style="margin: 1.5rem 0;"></div>
+
+            <!-- Sección de Filosofía de Trabajo -->
+            <div class="fade-up">
+              <span class="badge-tag" style="margin-bottom: 0.8rem;">Manifiesto de Marca</span>
+              <h3 style="font-size: 1.8rem; margin-bottom: 1.2rem;">Por qué creamos para mentes hiperactivas</h3>
+              
+              <div class="philosophy-grid">
+                
+                <div class="philosophy-card">
+                  <h4>
+                    <svg class="icon" style="color: var(--accent-green-bright);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                    Dinamismo Cinético
+                  </h4>
+                  <p>Huyendo de poses estáticas y fondos inertes; cada personaje tiene una línea de acción tensa y cada escenario sugiere movimiento y vida.</p>
+                </div>
+
+                <div class="philosophy-card">
+                  <h4>
+                    <svg class="icon" style="color: var(--accent-green-bright);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="M12 16v-4M12 8h.01"></path>
+                    </svg>
+                    Narrativa Oculta
+                  </h4>
+                  <p>Cada rozadura en una armadura, runa grabada o cable suspendido responde a un por qué narrativo dentro del universo de la obra.</p>
+                </div>
+
+                <div class="philosophy-card">
+                  <h4>
+                    <svg class="icon" style="color: var(--accent-green-bright);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                    </svg>
+                    Trayecto Transparente
+                  </h4>
+                  <p>Creemos en desmitificar el arte: mostramos abiertamente el proceso desde el primer boceto sucio hasta el renderizado final.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Llamado a la Acción Directo -->
+            <div class="home-cta-banner fade-up" style="margin-top: 2rem; text-align: left; padding: 2.5rem;">
+              <h3 style="font-size: 1.6rem; margin-bottom: 0.6rem; color: #FFFFFF;">¿Conversamos sobre tu próximo proyecto?</h3>
+              <p style="margin: 0 0 1.5rem 0; color: #9CA3AF;">Estoy disponible para comisiones personalizadas, proyectos de desarrollo visual y colaboraciones en videojuegos o editorial.</p>
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <a href="https://wa.me/573001234567?text=Hola%20Sebas,%20leí%20tu%20historia%20en%20Diseño%20Maestro%20y%20me%20gustaría%20charlar." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/>
+                  </svg>
+                  Escribirme directamente
+                </a>
+                <a href="trabajos.html" class="btn btn-outline">
+                  Ver Obras y Trabajos
+                </a>
+              </div>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       FOOTER GLOBAL: 3 COLUMNAS + BARRA INFERIOR
+       ====================================================================== -->
+<footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        
+        <!-- Columna 1: Información de Contacto -->
+        <div class="footer-column footer-col-contact">
+          <h4 class="footer-heading">Contacto Directo</h4>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div>
+                <strong>Estudio Base:</strong><br>
+                <span>Carrera 48 # 26-01, Las acacias,<br>Armenia, Quindio, Colombia</span>
+                <span class="mock-notice">Mock Data • Editable</span>
+              </div>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <div>
+                <strong>Teléfono Móvil:</strong><br>
+                <a href="tel:+573001234567" class="contact-link">+57 3138278243</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div>
+                <strong>Correo Electrónico:</strong><br>
+                <a href="mailto:contacto@disenomaestro.art" class="contact-link">diseñomaestro@gmail.com</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="contact-status-pill">
+            <span class="status-dot"></span>
+            <span>Disponible para trabajos y contratos</span>
+          </div>
+        </div>
+
+        <!-- Columna 2: Redes Sociales y Mensajería Directa -->
+        <div class="footer-column footer-col-social">
+          <h4 class="footer-heading">Redes & WhatsApp</h4>
+          
+          <!-- Botón Destacado de WhatsApp -->
+          <div class="footer-whatsapp-card">
+            <span class="whatsapp-card-title">¿Respuesta en minutos?</span>
+            <p class="whatsapp-card-desc">Conversemos directamente sobre tu proyecto, cotizaciones o tiempos de entrega.</p>
+            <a href="https://wa.me/573001234567?text=Hola%20Sebas,%20estoy%20viendo%20tu%20sitio%20Diseño%20Maestro%20y%20me%20gustaría%20charlar." target="_blank" rel="noopener noreferrer" class="btn-whatsapp-prominent">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/>
+              </svg>
+              Escribir a WhatsApp
+            </a>
+          </div>
+
+          <!-- Redes Sociales Relevantes -->
+          <div class="social-links-grid">
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/disenomaestro/" target="_blank" rel="noopener noreferrer" class="social-btn" title="Instagram de Diseño Maestro">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            </a>
+            <!-- ArtStation -->
+            <a href="https://artstation.com" target="_blank" rel="noopener noreferrer" class="social-btn" title="Perfil en ArtStation">
+              <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M11.666 3.003c-.22 0-.435.086-.59.24L1.31 16.71c-.266.376-.237.892.074 1.233l2.84 3.109c.175.191.423.3.683.3h14.186c.26 0 .508-.109.683-.3l2.84-3.109c.311-.341.34-.857.074-1.233L12.256 3.243a.834.834 0 0 0-.59-.24zm-.008 3.518l7.08 10.146H4.578l7.08-10.146zm-5.748 11.815h11.496l-1.528 1.671H7.438l-1.528-1.671z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Columna 3: Ubicación y Mapa Interactivo -->
+        <div class="footer-column footer-col-map">
+          <h4 class="footer-heading">Ubicación del Estudio</h4>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5624.879157349648!2d-75.69824442218147!3d4.5235216376838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f59357892a8d%3A0x1f1dac1f01c7b557!2sConjunto%20Caminos%20del%20Campo!5e0!3m2!1ses!2sco!4v1795051706035!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
+          <p class="map-location-caption">
+            <svg class="icon" style="width: 14px; height: 14px; color: var(--accent-green-bright);" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+            Armenia, Quindio, Colombia • Servicios globales a distancia
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Barra Inferior de Derechos -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <div>
+          <span>© 2026 <strong>Diseño Maestro</strong>. Todos los derechos reservados.</span>
+        </div>
+        <div>
+          <span style="color: var(--accent-green-bright); font-weight: 600;">Creado para mentes hiperactivas.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/projects-data.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
